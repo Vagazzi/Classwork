@@ -1,4 +1,4 @@
-package tms.Vagazzi;
+package tms.vagazzi.lesson_3;
 
 import java.util.Random;
 

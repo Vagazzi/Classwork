@@ -1,10 +1,8 @@
-package tms.Vagazzi;
-
-import java.util.Scanner;
-
-public class ThirdLessonClasswork {
-    public static void main(String[] args) {
-
+//package tms.vagazzi.lesson_3;
+//
+//public class ThirdLessonClasswork {
+//    public static void main(String[] args) {
+//
 //        Scanner scanner = new Scanner(System.in);
 //
 //        System.out.println("Set a temperature ");
@@ -47,23 +45,23 @@ public class ThirdLessonClasswork {
 //                System.out.println("I cannot recognize a time of year");
 //            }
 //        }
-
-       // ForLoopClass.runLoop();
-       // RandomInstance.generateNumber();
-
-        // 0 -5 10 -15 20 -25
-
-      // solve the problem asap
-        for (int i = 0, iter = 0; i < 20; i++, iter++) {
-
-            if (iter % 2 == 0) {
-                System.out.println("Numbers " + i * 5);
-            } else {
-                System.out.println("Numbers " + i * 5 * -1);
-            }
-
-        }
-
-    }
-
-}
+//
+//        ForLoopClass.runLoop();
+//        RandomInstance.generateNumber();
+//
+//         0 -5 10 -15 20 -25
+//
+//       solve the problem asap
+//        for (int i = 0, iter = 0; i < 20; i++, iter++) {
+//
+//            if (iter % 2 == 0) {
+//                System.out.println("Numbers " + i * 5);
+//            } else {
+//                System.out.println("Numbers " + i * 5 * -1);
+//            }
+//
+//        }
+//
+//    }
+//
+//}
