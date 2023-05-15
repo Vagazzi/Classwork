@@ -5,44 +5,13 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="831c80b9-f159-49fe-b071-f94814f3f270" name="Changes" comment="lesson 4 summary">
-      <change afterPath="$PROJECT_DIR$/abc.doc" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/tms/vagazzi/extrawork3/MyWorstLayout.form" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/tms/vagazzi/extrawork3/MyWorstLayout.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/tms/vagazzi/lesson_11/EleventhClasswork.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/tms/vagazzi/lesson_11/ExceptionExample.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/tms/vagazzi/lesson_12/Car.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/tms/vagazzi/lesson_12/CarReaderExample.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/tms/vagazzi/lesson_12/CarWriteExample.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/tms/vagazzi/lesson_12/FileReaderExample.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/tms/vagazzi/lesson_12/FileWriterExample.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/tms/vagazzi/lesson_12/twelvethclasswork.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/tms/vagazzi/lesson_13/KeyStorage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/tms/vagazzi/lesson_13/Person.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/tms/vagazzi/lesson_13/ThirteenClasswork.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/tms/vagazzi/lesson_5/FifthClasswork.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/tms/vagazzi/lesson_6/SixthClasswork.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/tms/vagazzi/lesson_6/classRepository/Car.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/tms/vagazzi/lesson_7/PCs/Calculable.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/tms/vagazzi/lesson_7/PCs/Computer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/tms/vagazzi/lesson_7/PCs/Laptop.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/tms/vagazzi/lesson_7/PCs/PCSizes.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/tms/vagazzi/lesson_7/PCs/PersonalComputer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/tms/vagazzi/lesson_7/SeventhClasswork.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/tms/vagazzi/lesson_8/BadParent.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/tms/vagazzi/lesson_8/Child.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/tms/vagazzi/lesson_8/EighthClasswork.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/tms/vagazzi/lesson_8/Parent.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/tms/vagazzi/lesson_8/extrawork/ExampleLayout.form" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/tms/vagazzi/lesson_8/extrawork/ExampleLayout.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/tms/vagazzi/lesson_9/NinethClasswork.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/tms/vagazzi/lesson_9/work_2/HelloForm.form" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/tms/vagazzi/lesson_9/work_2/HelloForm.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/tms/vagazzi/lesson_9/work_2/LoginForm.form" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/tms/vagazzi/lesson_9/work_2/LoginForm.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/template.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/tms/vagazzi/lesson_14/DateMain.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/tms/vagazzi/lesson_14/Fruit.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/tms/vagazzi/lesson_14/FruitMain.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/tms/vagazzi/lesson_14/FunctionExample.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/tms/vagazzi/lesson_14/MapExample.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/tms/vagazzi/lesson_14/MyBestInterface.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -73,7 +42,7 @@
     </favorite-branches>
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$" value="lesson_12" />
+        <entry key="$PROJECT_DIR$" value="lesson_13" />
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -94,22 +63,23 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/User/IdeaProjects/Classwork&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
-    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
-    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "last_opened_file_path": "C:/Users/User/IdeaProjects/Classwork",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "project.structure.last.edited": "Modules",
+    "project.structure.proportion": "0.15",
+    "project.structure.side.proportion": "0.2",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
+}]]></component>
   <component name="RunManager">
     <configuration name="CarReaderExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="tms.vagazzi.lesson_12.CarReaderExample" />
@@ -185,7 +155,8 @@
       <workItem from="1681747285708" duration="5518000" />
       <workItem from="1682524939404" duration="7872000" />
       <workItem from="1683130483703" duration="7201000" />
-      <workItem from="1683734708504" duration="8249000" />
+      <workItem from="1683734708504" duration="8648000" />
+      <workItem from="1684167068366" duration="7970000" />
     </task>
     <task id="LOCAL-00001" summary="Initial commit">
       <created>1679933721360</created>
@@ -215,7 +186,14 @@
       <option name="project" value="LOCAL" />
       <updated>1679943733310</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="lesson 4 summary">
+      <created>1683744846516</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1683744846516</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -252,7 +230,8 @@
     <MESSAGE value="improved .gitignore file" />
     <MESSAGE value="added description of readme.md file" />
     <MESSAGE value="lesson 3 summary" />
-    <option name="LAST_COMMIT_MESSAGE" value="lesson 3 summary" />
+    <MESSAGE value="lesson 4 summary" />
+    <option name="LAST_COMMIT_MESSAGE" value="lesson 4 summary" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -281,6 +260,10 @@
           <url>file://$PROJECT_DIR$/src/main/java/tms/vagazzi/extrawork3/MyWorstLayout.java</url>
           <line>4</line>
           <option name="timeStamp" value="15" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>jar://$PROJECT_DIR$/../../../../Program Files/Eclipse Adoptium/jdk-19.0.2.7-hotspot/lib/src.zip!/java.base/java/util/function/Predicate.java</url>
+          <option name="timeStamp" value="16" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
