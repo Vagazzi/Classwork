@@ -5,12 +5,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="831c80b9-f159-49fe-b071-f94814f3f270" name="Changes" comment="lesson 4 summary">
-      <change afterPath="$PROJECT_DIR$/src/main/java/tms/vagazzi/lesson_14/DateMain.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/tms/vagazzi/lesson_14/Fruit.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/tms/vagazzi/lesson_14/FruitMain.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/tms/vagazzi/lesson_14/FunctionExample.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/tms/vagazzi/lesson_14/MapExample.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/tms/vagazzi/lesson_14/MyBestInterface.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/tms/vagazzi/lesson_15/Employee.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/tms/vagazzi/lesson_15/FifteenthClasswork.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/tms/vagazzi/lesson_15/Order.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/tms/vagazzi/lesson_15/Products.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/tms/vagazzi/lesson_15/User.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/tms/vagazzi/lesson_16/SixteenthClasswork.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -42,7 +42,7 @@
     </favorite-branches>
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$" value="lesson_13" />
+        <entry key="$PROJECT_DIR$" value="lesson_15" />
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -63,23 +63,23 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "last_opened_file_path": "C:/Users/User/IdeaProjects/Classwork",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "project.structure.last.edited": "Modules",
-    "project.structure.proportion": "0.15",
-    "project.structure.side.proportion": "0.2",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/User/IdeaProjects/Classwork&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RunManager">
     <configuration name="CarReaderExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="tms.vagazzi.lesson_12.CarReaderExample" />
@@ -157,6 +157,9 @@
       <workItem from="1683130483703" duration="7201000" />
       <workItem from="1683734708504" duration="8648000" />
       <workItem from="1684167068366" duration="7970000" />
+      <workItem from="1684771310826" duration="8000" />
+      <workItem from="1684773075360" duration="7790000" />
+      <workItem from="1684944485085" duration="4539000" />
     </task>
     <task id="LOCAL-00001" summary="Initial commit">
       <created>1679933721360</created>
