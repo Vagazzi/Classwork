@@ -5,17 +5,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="831c80b9-f159-49fe-b071-f94814f3f270" name="Changes" comment="lesson 17th summary">
-      <change afterPath="$PROJECT_DIR$/src/main/java/tms/vagazzi/lesson_18/Course.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/tms/vagazzi/lesson_18/JsonExample.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/tms/vagazzi/lesson_18/Person.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/tms/vagazzi/lesson_18/SaxExample.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/tms/vagazzi/lesson_18/Student.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/tms/vagazzi/lesson_18/XmlReader.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/tms/vagazzi/lesson_18/XmlWriter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/tms/vagazzi/test.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/student.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/tms/vagazzi/lesson_19/Counter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/tms/vagazzi/lesson_19/MyCallable.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/tms/vagazzi/lesson_19/MyRunnable.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/tms/vagazzi/lesson_19/MyThread.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/tms/vagazzi/lesson_19/NineteenthClasswork.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -46,7 +41,7 @@
     </favorite-branches>
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$" value="lesson_16" />
+        <entry key="$PROJECT_DIR$" value="lesson_18" />
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -69,71 +64,32 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "ASKED_ADD_EXTERNAL_FILES": "true",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "last_opened_file_path": "C:/Users/User/IdeaProjects/Classwork",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "project.structure.last.edited": "Modules",
-    "project.structure.proportion": "0.15",
-    "project.structure.side.proportion": "0.2",
-    "settings.editor.selected.configurable": "preferences.keymap",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/User/IdeaProjects/Classwork&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.keymap&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RunManager">
-    <configuration name="CarReaderExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="tms.vagazzi.lesson_12.CarReaderExample" />
+    <configuration name="NineteenthClasswork" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="tms.vagazzi.lesson_19.NineteenthClasswork" />
       <module name="Classwork" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="tms.vagazzi.lesson_12.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="ExampleLayout" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="tms.vagazzi.lesson_8.extrawork.ExampleLayout" />
-      <module name="Classwork" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="tms.vagazzi.lesson_8.extrawork.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="MyWorstLayout" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="tms.vagazzi.extrawork3.MyWorstLayout" />
-      <module name="Classwork" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="tms.vagazzi.extrawork3.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="twelvethclasswork" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="tms.vagazzi.lesson_12.twelvethclasswork" />
-      <module name="Classwork" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="tms.vagazzi.lesson_12.*" />
+          <option name="PATTERN" value="tms.vagazzi.lesson_19.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -143,10 +99,7 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.CarReaderExample" />
-        <item itemvalue="Application.twelvethclasswork" />
-        <item itemvalue="Application.MyWorstLayout" />
-        <item itemvalue="Application.ExampleLayout" />
+        <item itemvalue="Application.NineteenthClasswork" />
       </list>
     </recent_temporary>
   </component>
@@ -170,6 +123,7 @@
       <workItem from="1684944485085" duration="4570000" />
       <workItem from="1685375819315" duration="1183000" />
       <workItem from="1685378417765" duration="5320000" />
+      <workItem from="1685549803757" duration="7472000" />
     </task>
     <task id="LOCAL-00001" summary="Initial commit">
       <created>1679933721360</created>
