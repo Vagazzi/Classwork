@@ -4,14 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="831c80b9-f159-49fe-b071-f94814f3f270" name="Changes" comment="lesson 17th summary">
-      <change afterPath="$PROJECT_DIR$/src/main/java/tms/vagazzi/lesson_19/Counter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/tms/vagazzi/lesson_19/MyCallable.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/tms/vagazzi/lesson_19/MyRunnable.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/tms/vagazzi/lesson_19/MyThread.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/tms/vagazzi/lesson_19/NineteenthClasswork.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-    </list>
+    <list default="true" id="831c80b9-f159-49fe-b071-f94814f3f270" name="Changes" comment="lesson 18th summary" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -123,7 +116,7 @@
       <workItem from="1684944485085" duration="4570000" />
       <workItem from="1685375819315" duration="1183000" />
       <workItem from="1685378417765" duration="5320000" />
-      <workItem from="1685549803757" duration="7472000" />
+      <workItem from="1685549803757" duration="7782000" />
     </task>
     <task id="LOCAL-00001" summary="Initial commit">
       <created>1679933721360</created>
@@ -167,7 +160,14 @@
       <option name="project" value="LOCAL" />
       <updated>1684954576806</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="lesson 18th summary">
+      <created>1685558526931</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1685558526931</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -207,7 +207,8 @@
     <MESSAGE value="lesson 3 summary" />
     <MESSAGE value="lesson 4 summary" />
     <MESSAGE value="lesson 17th summary" />
-    <option name="LAST_COMMIT_MESSAGE" value="lesson 17th summary" />
+    <MESSAGE value="lesson 18th summary" />
+    <option name="LAST_COMMIT_MESSAGE" value="lesson 18th summary" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
