@@ -1,0 +1,361 @@
+Index: pom.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+><?xml version=\"1.0\" encoding=\"UTF-8\"?>\r\n<project xmlns=\"http://maven.apache.org/POM/4.0.0\"\r\n         xmlns:xsi=\"http://www.w3.org/2001/XMLSchema-instance\"\r\n         xsi:schemaLocation=\"http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd\">\r\n    <modelVersion>4.0.0</modelVersion>\r\n\r\n    <groupId>org.example</groupId>\r\n    <artifactId>Classwork</artifactId>\r\n    <version>1.0-SNAPSHOT</version>\r\n\r\n    <properties>\r\n        <maven.compiler.source>19</maven.compiler.source>\r\n        <maven.compiler.target>19</maven.compiler.target>\r\n        <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>\r\n    </properties>\r\n\r\n</project>
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/pom.xml b/pom.xml
+--- a/pom.xml	(revision c479e346aafac825f711b43b97505ab4b977f926)
++++ b/pom.xml	(date 1685987921489)
+@@ -14,4 +14,46 @@
+         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+     </properties>
+ 
++    <dependencies>
++        <dependency>
++            <groupId>org.projectlombok</groupId>
++            <artifactId>lombok</artifactId>
++            <version>1.18.26</version>
++            <scope>provided</scope>
++        </dependency>
++        <!-- https://mvnrepository.com/artifact/javax.xml.bind/jaxb-api -->
++        <dependency>
++            <groupId>javax.xml.bind</groupId>
++            <artifactId>jaxb-api</artifactId>
++            <version>2.3.1</version>
++        </dependency>
++        <!-- https://mvnrepository.com/artifact/com.fasterxml.jackson.core/jackson-databind -->
++        <dependency>
++            <groupId>com.fasterxml.jackson.core</groupId>
++            <artifactId>jackson-databind</artifactId>
++            <version>2.15.1</version>
++        </dependency>
++        <!-- https://mvnrepository.com/artifact/org.glassfish.jaxb/jaxb-runtime -->
++        <dependency>
++            <groupId>org.glassfish.jaxb</groupId>
++            <artifactId>jaxb-runtime</artifactId>
++            <version>2.3.1</version>
++        </dependency>
++        <!-- https://mvnrepository.com/artifact/javax.activation/activation -->
++        <dependency>
++            <groupId>javax.activation</groupId>
++            <artifactId>activation</artifactId>
++            <version>1.1.1</version>
++        </dependency>
++        <!-- https://mvnrepository.com/artifact/mysql/mysql-connector-java -->
++        <dependency>
++            <groupId>mysql</groupId>
++            <artifactId>mysql-connector-java</artifactId>
++            <version>8.0.33</version>
++        </dependency>
++
++
++
++    </dependencies>
++
+ </project>
+\ No newline at end of file
+Index: .idea/workspace.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+><?xml version=\"1.0\" encoding=\"UTF-8\"?>\r\n<project version=\"4\">\r\n  <component name=\"AutoImportSettings\">\r\n    <option name=\"autoReloadType\" value=\"SELECTIVE\" />\r\n  </component>\r\n  <component name=\"ChangeListManager\">\r\n    <list default=\"true\" id=\"831c80b9-f159-49fe-b071-f94814f3f270\" name=\"Changes\" comment=\"\" />\r\n    <option name=\"SHOW_DIALOG\" value=\"false\" />\r\n    <option name=\"HIGHLIGHT_CONFLICTS\" value=\"true\" />\r\n    <option name=\"HIGHLIGHT_NON_ACTIVE_CHANGELIST\" value=\"false\" />\r\n    <option name=\"LAST_RESOLUTION\" value=\"IGNORE\" />\r\n  </component>\r\n  <component name=\"Git.Settings\">\r\n    <option name=\"RECENT_GIT_ROOT_PATH\" value=\"$PROJECT_DIR$\" />\r\n  </component>\r\n  <component name=\"MavenImportPreferences\">\r\n    <option name=\"importingSettings\">\r\n      <MavenImportingSettings>\r\n        <option name=\"workspaceImportEnabled\" value=\"true\" />\r\n      </MavenImportingSettings>\r\n    </option>\r\n  </component>\r\n  <component name=\"ProjectId\" id=\"2NbXE0zRnkYPVPP10EwizmrHWGR\" />\r\n  <component name=\"ProjectLevelVcsManager\" settingsEditedManually=\"true\" />\r\n  <component name=\"ProjectViewState\">\r\n    <option name=\"hideEmptyMiddlePackages\" value=\"true\" />\r\n    <option name=\"showLibraryContents\" value=\"true\" />\r\n  </component>\r\n  <component name=\"PropertiesComponent\"><![CDATA[{\r\n  \"keyToString\": {\r\n    \"RunOnceActivity.OpenProjectViewOnStart\": \"true\",\r\n    \"RunOnceActivity.ShowReadmeOnStart\": \"true\",\r\n    \"WebServerToolWindowFactoryState\": \"false\",\r\n    \"vue.rearranger.settings.migration\": \"true\"\r\n  }\r\n}]]></component>\r\n  <component name=\"SpellCheckerSettings\" RuntimeDictionaries=\"0\" Folders=\"0\" CustomDictionaries=\"0\" DefaultDictionary=\"application-level\" UseSingleDictionary=\"true\" transferred=\"true\" />\r\n  <component name=\"TaskManager\">\r\n    <task active=\"true\" id=\"Default\" summary=\"Default task\">\r\n      <changelist id=\"831c80b9-f159-49fe-b071-f94814f3f270\" name=\"Changes\" comment=\"\" />\r\n      <created>1679933641173</created>\r\n      <option name=\"number\" value=\"Default\" />\r\n      <option name=\"presentableId\" value=\"Default\" />\r\n      <updated>1679933641173</updated>\r\n    </task>\r\n    <servers />\r\n  </component>\r\n</project>
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/.idea/workspace.xml b/.idea/workspace.xml
+--- a/.idea/workspace.xml	(revision c479e346aafac825f711b43b97505ab4b977f926)
++++ b/.idea/workspace.xml	(date 1685987923829)
+@@ -4,14 +4,46 @@
+     <option name="autoReloadType" value="SELECTIVE" />
+   </component>
+   <component name="ChangeListManager">
+-    <list default="true" id="831c80b9-f159-49fe-b071-f94814f3f270" name="Changes" comment="" />
++    <list default="true" id="831c80b9-f159-49fe-b071-f94814f3f270" name="Changes" comment="lesson 18th summary">
++      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
++      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
++    </list>
+     <option name="SHOW_DIALOG" value="false" />
+     <option name="HIGHLIGHT_CONFLICTS" value="true" />
+     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+     <option name="LAST_RESOLUTION" value="IGNORE" />
++  </component>
++  <component name="FileTemplateManagerImpl">
++    <option name="RECENT_TEMPLATES">
++      <list>
++        <option value="Interface" />
++        <option value="Class" />
++      </list>
++    </option>
+   </component>
+   <component name="Git.Settings">
++    <favorite-branches>
++      <branch-storage>
++        <map>
++          <entry type="LOCAL">
++            <value>
++              <list>
++                <branch-info repo="$PROJECT_DIR$" source="classwork/lesson3" />
++              </list>
++            </value>
++          </entry>
++        </map>
++      </branch-storage>
++    </favorite-branches>
++    <option name="RECENT_BRANCH_BY_REPOSITORY">
++      <map>
++        <entry key="$PROJECT_DIR$" value="lesson_18" />
++      </map>
++    </option>
+     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
++  </component>
++  <component name="MarkdownSettingsMigration">
++    <option name="stateVersion" value="1" />
+   </component>
+   <component name="MavenImportPreferences">
+     <option name="importingSettings">
+@@ -21,19 +53,57 @@
+     </option>
+   </component>
+   <component name="ProjectId" id="2NbXE0zRnkYPVPP10EwizmrHWGR" />
+-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
++  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
++    <ConfirmationsSetting value="2" id="Add" />
++  </component>
+   <component name="ProjectViewState">
+     <option name="hideEmptyMiddlePackages" value="true" />
+     <option name="showLibraryContents" value="true" />
+   </component>
+   <component name="PropertiesComponent"><![CDATA[{
+   "keyToString": {
++    "ASKED_ADD_EXTERNAL_FILES": "true",
+     "RunOnceActivity.OpenProjectViewOnStart": "true",
+     "RunOnceActivity.ShowReadmeOnStart": "true",
+     "WebServerToolWindowFactoryState": "false",
++    "last_opened_file_path": "C:/Program Files (x86)/MySQL/Connector J 8.0/mysql-connector-j-8.0.31.jar",
++    "node.js.detected.package.eslint": "true",
++    "node.js.detected.package.tslint": "true",
++    "node.js.selected.package.eslint": "(autodetect)",
++    "node.js.selected.package.tslint": "(autodetect)",
++    "nodejs_package_manager_path": "npm",
++    "project.structure.last.edited": "Libraries",
++    "project.structure.proportion": "0.15",
++    "project.structure.side.proportion": "0.2",
++    "settings.editor.selected.configurable": "preferences.keymap",
+     "vue.rearranger.settings.migration": "true"
++  },
++  "keyToStringList": {
++    "DatabaseDriversLRU": [
++      "mysql"
++    ]
+   }
+ }]]></component>
++  <component name="RunManager">
++    <configuration name="NineteenthClasswork" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
++      <option name="MAIN_CLASS_NAME" value="tms.vagazzi.lesson_19.NineteenthClasswork" />
++      <module name="Classwork" />
++      <extension name="coverage">
++        <pattern>
++          <option name="PATTERN" value="tms.vagazzi.lesson_19.*" />
++          <option name="ENABLED" value="true" />
++        </pattern>
++      </extension>
++      <method v="2">
++        <option name="Make" enabled="true" />
++      </method>
++    </configuration>
++    <recent_temporary>
++      <list>
++        <item itemvalue="Application.NineteenthClasswork" />
++      </list>
++    </recent_temporary>
++  </component>
+   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+   <component name="TaskManager">
+     <task active="true" id="Default" summary="Default task">
+@@ -42,7 +112,153 @@
+       <option name="number" value="Default" />
+       <option name="presentableId" value="Default" />
+       <updated>1679933641173</updated>
++      <workItem from="1679933642525" duration="1309000" />
++      <workItem from="1680106842801" duration="6948000" />
++      <workItem from="1681747285708" duration="5518000" />
++      <workItem from="1682524939404" duration="7872000" />
++      <workItem from="1683130483703" duration="7201000" />
++      <workItem from="1683734708504" duration="8648000" />
++      <workItem from="1684167068366" duration="7970000" />
++      <workItem from="1684771310826" duration="8000" />
++      <workItem from="1684773075360" duration="7790000" />
++      <workItem from="1684944485085" duration="4570000" />
++      <workItem from="1685375819315" duration="1183000" />
++      <workItem from="1685378417765" duration="5320000" />
++      <workItem from="1685549803757" duration="7782000" />
++      <workItem from="1685980919849" duration="3578000" />
+     </task>
++    <task id="LOCAL-00001" summary="Initial commit">
++      <created>1679933721360</created>
++      <option name="number" value="00001" />
++      <option name="presentableId" value="LOCAL-00001" />
++      <option name="project" value="LOCAL" />
++      <updated>1679933721360</updated>
++    </task>
++    <task id="LOCAL-00002" summary="improved .gitignore file">
++      <created>1679933932222</created>
++      <option name="number" value="00002" />
++      <option name="presentableId" value="LOCAL-00002" />
++      <option name="project" value="LOCAL" />
++      <updated>1679933932222</updated>
++    </task>
++    <task id="LOCAL-00003" summary="added description of readme.md file">
++      <created>1679934325775</created>
++      <option name="number" value="00003" />
++      <option name="presentableId" value="LOCAL-00003" />
++      <option name="project" value="LOCAL" />
++      <updated>1679934325775</updated>
++    </task>
++    <task id="LOCAL-00004" summary="lesson 3 summary">
++      <created>1679943733310</created>
++      <option name="number" value="00004" />
++      <option name="presentableId" value="LOCAL-00004" />
++      <option name="project" value="LOCAL" />
++      <updated>1679943733310</updated>
++    </task>
++    <task id="LOCAL-00005" summary="lesson 4 summary">
++      <created>1683744846516</created>
++      <option name="number" value="00005" />
++      <option name="presentableId" value="LOCAL-00005" />
++      <option name="project" value="LOCAL" />
++      <updated>1683744846516</updated>
++    </task>
++    <task id="LOCAL-00006" summary="lesson 17th summary">
++      <created>1684954576806</created>
++      <option name="number" value="00006" />
++      <option name="presentableId" value="LOCAL-00006" />
++      <option name="project" value="LOCAL" />
++      <updated>1684954576806</updated>
++    </task>
++    <task id="LOCAL-00007" summary="lesson 18th summary">
++      <created>1685558526931</created>
++      <option name="number" value="00007" />
++      <option name="presentableId" value="LOCAL-00007" />
++      <option name="project" value="LOCAL" />
++      <updated>1685558526931</updated>
++    </task>
++    <task id="LOCAL-00008" summary="lesson 18th summary">
++      <created>1685980975533</created>
++      <option name="number" value="00008" />
++      <option name="presentableId" value="LOCAL-00008" />
++      <option name="project" value="LOCAL" />
++      <updated>1685980975533</updated>
++    </task>
++    <option name="localTasksCounter" value="9" />
+     <servers />
+   </component>
++  <component name="TypeScriptGeneratedFilesManager">
++    <option name="version" value="3" />
++  </component>
++  <component name="Vcs.Log.Tabs.Properties">
++    <option name="TAB_STATES">
++      <map>
++        <entry key="MAIN">
++          <value>
++            <State />
++          </value>
++        </entry>
++      </map>
++    </option>
++    <option name="RECENT_FILTERS">
++      <map>
++        <entry key="Branch">
++          <value>
++            <list>
++              <RecentGroup>
++                <option name="FILTER_VALUES">
++                  <option value="HEAD" />
++                </option>
++              </RecentGroup>
++            </list>
++          </value>
++        </entry>
++      </map>
++    </option>
++  </component>
++  <component name="VcsManagerConfiguration">
++    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
++    <MESSAGE value="Initial commit" />
++    <MESSAGE value="improved .gitignore file" />
++    <MESSAGE value="added description of readme.md file" />
++    <MESSAGE value="lesson 3 summary" />
++    <MESSAGE value="lesson 4 summary" />
++    <MESSAGE value="lesson 17th summary" />
++    <MESSAGE value="lesson 18th summary" />
++    <option name="LAST_COMMIT_MESSAGE" value="lesson 18th summary" />
++  </component>
++  <component name="XDebuggerManager">
++    <breakpoint-manager>
++      <breakpoints>
++        <line-breakpoint enabled="true" type="java-line">
++          <url>file://$PROJECT_DIR$/src/main/java/tms/vagazzi/lesson_8/extrawork/ExampleLayout.java</url>
++          <line>21</line>
++          <option name="timeStamp" value="7" />
++        </line-breakpoint>
++        <line-breakpoint enabled="true" type="java-line">
++          <url>file://$PROJECT_DIR$/src/main/java/tms/vagazzi/lesson_11/EleventhClasswork.java</url>
++          <line>46</line>
++          <option name="timeStamp" value="10" />
++        </line-breakpoint>
++        <line-breakpoint enabled="true" type="java-line">
++          <url>file://$PROJECT_DIR$/src/main/java/tms/vagazzi/lesson_11/EleventhClasswork.java</url>
++          <line>47</line>
++          <option name="timeStamp" value="12" />
++        </line-breakpoint>
++        <line-breakpoint enabled="true" type="java-line">
++          <url>file://$PROJECT_DIR$/src/main/java/tms/vagazzi/lesson_11/EleventhClasswork.java</url>
++          <line>24</line>
++          <option name="timeStamp" value="13" />
++        </line-breakpoint>
++        <line-breakpoint enabled="true" type="java-line">
++          <url>file://$PROJECT_DIR$/src/main/java/tms/vagazzi/extrawork3/MyWorstLayout.java</url>
++          <line>4</line>
++          <option name="timeStamp" value="15" />
++        </line-breakpoint>
++        <line-breakpoint enabled="true" type="java-line">
++          <url>jar://$PROJECT_DIR$/../../../../Program Files/Eclipse Adoptium/jdk-19.0.2.7-hotspot/lib/src.zip!/java.base/java/util/function/Predicate.java</url>
++          <option name="timeStamp" value="16" />
++        </line-breakpoint>
++      </breakpoints>
++    </breakpoint-manager>
++  </component>
+ </project>
+\ No newline at end of file
+Index: .idea/dataSources.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/.idea/dataSources.xml b/.idea/dataSources.xml
+new file mode 100644
+--- /dev/null	(date 1685987921519)
++++ b/.idea/dataSources.xml	(date 1685987921519)
+@@ -0,0 +1,20 @@
++<?xml version="1.0" encoding="UTF-8"?>
++<project version="4">
++  <component name="DataSourceManagerImpl" format="xml" multifile-model="true">
++    <data-source source="LOCAL" name="mysql-docker-container-new" uuid="dbe8a021-d1c2-43d8-8ac5-1beb8bc77609">
++      <driver-ref>mysql.8</driver-ref>
++      <synchronize>true</synchronize>
++      <jdbc-driver>com.mysql.cj.jdbc.Driver</jdbc-driver>
++      <jdbc-url>jdbc:mysql://localhost:8477</jdbc-url>
++      <working-dir>$ProjectFileDir$</working-dir>
++    </data-source>
++    <data-source source="LOCAL" name="MySQL" uuid="43df73ed-6e41-4bdb-92b9-c01296925d56">
++      <driver-ref>mysql.8</driver-ref>
++      <synchronize>true</synchronize>
++      <configured-by-url>true</configured-by-url>
++      <jdbc-driver>com.mysql.cj.jdbc.Driver</jdbc-driver>
++      <jdbc-url>jdbc:mysql:///?junixsocket.file=9000&amp;socketFactory=org.newsclub.net.mysql.AFUNIXDatabaseSocketFactoryCJ</jdbc-url>
++      <working-dir>$ProjectFileDir$</working-dir>
++    </data-source>
++  </component>
++</project>
+\ No newline at end of file
